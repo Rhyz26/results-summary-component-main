@@ -10,7 +10,6 @@ body {
 }
 
 .main {
-  /* background: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%)); */
   background: hsla(241, 81%, 54%, 1);
   width: 250px;
   height: 300px;
@@ -18,7 +17,9 @@ body {
   font-family: "Hanken Grotesk";
   color: hsl(0, 0%, 100%);
   padding-top: 20px;
-  margin-bottom: 40px;
+}
+.summary {
+  margin-top: 10px;
 }
 .number {
   color: hsl(0, 0%, 100%);
@@ -30,7 +31,6 @@ body {
 }
 .main-1 {
   background: hsl(234, 85%, 45%);
-  /* background: linear-gradient(to bottom, hsl(241, 81%, 54%)); */
 
   border-radius: 100%;
   width: 100px;
@@ -38,12 +38,10 @@ body {
   margin-right: 100px;
   margin-top: 10px;
 
-  /* height:20px; */
   padding: 20px;
 }
 .main-2 {
   font-family: "Hanken Grotesk";
-  margin-top: 20px;
 }
 
 /* span */
@@ -72,22 +70,22 @@ body {
   margin-right: 10px;
 }
 .red-3 {
-  margin-left: 80px;
+  margin-left: 60px;
 }
 .memo-1 {
-  margin-left: 80px;
+  margin-left: 63px;
 }
 .img-3 {
   margin-right: 10px;
 }
 .verbal-1 {
-  margin-left: 95px;
+  margin-left: 75px;
 }
 .img-4 {
   margin-right: 10px;
 }
 .visual-1 {
-  margin-left: 95px;
+  margin-left: 78px;
 }
 .memo-2 {
   color: hsla(224, 30%, 27%, 0.6);
@@ -111,6 +109,10 @@ body {
   margin-bottom: 20px;
 }
 
+.summary {
+  margin-bottom: 5px;
+}
+
 @media (max-width: 375px) {
   * {
     box-sizing: border-box;
@@ -119,35 +121,50 @@ body {
     padding: 0px;
   }
 
+  body {
+    background-color: hsla(224, 30%, 27%, 1.5);
+  }
+
   .main {
-    /* background: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%)); */
-    background: hsla(241, 81%, 54%, 1);
-    width: 250px;
-    /* height: 280px; */
     border-radius: 0px 0px 20px 20px;
     font-family: "Hanken Grotesk";
-    color: hsl(0, 0%, 100%);
     padding-bottom: 20px;
-    /* margin-bottom: 5px; */
   }
   .content {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
     margin-left: 70px;
-    /* gap: 2px; */
-    background-color: hsl(0, 0%, 100%);
-    width: 250px;
-    height: 260px;
-    border-radius: 0px 15px 15px 0px;
-    margin-bottom: 5px;
-  }
 
-  .main-2{
-    padding-top:0px;
+    width: 250px;
+    height: 610px;
+    border-radius: 0px 15px 0px 0px;
   }
 
   .attribution {
-    margin-top: 380px;
+    margin-top: 10px;
+  }
+
+  .reaction {
+    margin-left: 10px;
+  }
+
+  .summary {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+
+  .memory-1 {
+    margin-left: 10px;
+  }
+
+  .Vabal {
+    margin-left: 10px;
+  }
+  .vizual {
+    margin-left: 10px;
+  }
+  .button {
+    margin-left: 10px;
   }
 }
