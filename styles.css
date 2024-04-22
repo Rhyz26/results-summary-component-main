@@ -121,10 +121,7 @@ body {
     padding: 0px;
   }
 
-  body {
-    background-color: hsla(224, 30%, 27%, 1.5);
-  }
-
+  
   .main {
     border-radius: 0px 0px 20px 20px;
     font-family: "Hanken Grotesk";
